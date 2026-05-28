@@ -1,4 +1,4 @@
-# 📊 Jobs Dataset Analysis (Excel Project)
+# 📊 Jobs Dataset Analysis
 
 ## 🔍 Overview
 
@@ -6,6 +6,16 @@ This project explores salary trends, skill demand, and job insights across vario
 
 The analysis focuses on understanding how factors like job role, skills, location, and experience impact salaries in the data domain.
 
+---
+
+## ⚙️ Tools / Skills Used
+
+- Advanced Excel  
+- Pivot Tables  
+- Power Query (data cleaning & transformation)  
+- Power Pivot (data modeling & relationships)
+- DAX
+  
 ---
 
 ## 📁 Dataset
@@ -59,23 +69,12 @@ The analysis focuses on understanding how factors like job role, skills, locatio
 
 ---
 
-## ⚙️ Tools Used
-
-- Microsoft Excel  
-- Pivot Tables  
-- Power Query (data cleaning & transformation)  
-- Power Pivot (data modeling & relationships)
-- DAX 
-- Data Visualization  
-
----
-
 ## 🚀 Learnings
 
 * Built interactive dashboards from raw datasets
 * Analyzed relationships between skills and salary
 * Translated data into meaningful business insights
-* Improved data storytelling using Excel
+* Improved data storytelling using Advanced Excel, Power Pivot, Pivot Tables, Power Query, DAX
 
 ---
 
