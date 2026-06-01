@@ -1,90 +1,210 @@
-# 📊 Jobs Dataset Analysis
+# 📊 Data Science Salary & Skills Analytics
 
 ## 🔍 Overview
 
-This project explores salary trends, skill demand, and job insights across various data-related roles using Excel-based analysis and dashboards.
+This project explores salary trends, skill demand, hiring patterns, and geographic compensation differences across data-related roles using Microsoft Excel.
 
-The analysis focuses on understanding how factors like job role, skills, location, and experience impact salaries in the data domain.
+The project consists of two complementary components:
 
----
+* **Interactive Dashboard Workbook** for dynamic exploration of salaries, job demand, hiring platforms, and employment types.
+* **Analytical Workbook** focused on skill demand, salary benchmarking, geographic comparisons, and skill–salary relationships.
 
-## ⚙️ Tools / Skills Used
-
-- Advanced Excel  
-- Pivot Tables  
-- Power Query (data cleaning & transformation)  
-- Power Pivot (data modeling & relationships)
-- DAX
-  
----
-
-## 📁 Dataset
-
-* **Name:** jobs_dataset_main
-* Contains:
-
-  * Job roles (Data Analyst, Data Scientist, etc.)
-  * Salaries
-  * Skills required
-  * Job locations and types
+Using Excel, Power Query, Power Pivot, DAX, Pivot Tables, and advanced formulas, raw job posting data was transformed into actionable insights about the modern data job market.
 
 ---
 
-## 📂 Projects
+## 🎯 Business Questions
 
-### 📌 Project 1: Data Science Salary Dashboard
+This project aims to answer questions such as:
 
-* Built an interactive Excel dashboard using:
-
-  * Pivot Tables
-  * Used Power Query for data cleaning and transformation
-  * Used Power Pivot to build data relationships and optimize analysis  
-  * Charts and KPIs
-  * Slicers (Job Title, Country, Job Type)
-
-![](images/project_1_dashboard_preview/image_1.png)
+* Which data roles command the highest salaries?
+* Which skills are most frequently requested by employers?
+* Do jobs requiring more skills tend to pay more?
+* How do salaries differ across countries?
+* Which hiring platforms dominate the data job market?
+* How do employment types influence compensation?
 
 ---
 
-### 📌 Project 2: Salary & Skills Analysis
+## 🛠️ Tools & Technologies
 
-* Conducted detailed analysis on:
+| Category             | Tools                                        |
+| -------------------- | -------------------------------------------- |
+| Spreadsheet Analysis | Microsoft Excel                              |
+| Data Transformation  | Power Query                                  |
+| Data Modeling        | Power Pivot                                  |
+| Calculations         | DAX                                          |
+| Reporting            | Pivot Tables, Pivot Charts                   |
+| Excel Functions      | XLOOKUP, SORT, SUMPRODUCT, Dynamic Arrays    |
+| Dashboarding         | Slicers, Maps, KPI Cards, Interactive Charts |
 
-  * Salary distribution across roles
-  * Skills demand vs salary trends
-  * Top skills by frequency and pay
+---
 
-![](images/project_2_analysis_preview/image_1.png)
-![](images/project_2_analysis_preview/image_2.png)
-![](images/project_2_analysis_preview/image_3.png)
-![](images/project_2_analysis_preview/image_4.png)
+# 📁 Project Components
+
+## 1️⃣ Interactive Salary Dashboard
+
+### Objective
+
+Build a dynamic Excel dashboard enabling users to explore compensation and hiring trends across different job titles, countries, and employment types.
+
+### Features
+
+* Dynamic filtering by:
+
+  * Job Title
+  * Country
+  * Job Type
+
+* KPI Cards:
+
+  * Median Salary
+  * Job Count
+  * Top Hiring Platform
+
+* Visualizations:
+
+  * Salary by Job Role
+  * Country Salary Map
+  * Employment Type Analysis
+  * Hiring Platform Analysis
+
+### Skills Demonstrated
+
+* Dashboard Design
+* Power Query
+* Power Pivot
+* DAX
+* Advanced Excel Formulas
+* Interactive Reporting
+
+### Dashboard Preview
+
+![Salary Dashboard](images/dashboard.png)
+
+---
+
+## 2️⃣ Salary & Skills Analytics
+
+### Objective
+
+Perform exploratory analysis to understand how skills, geography, and job roles influence compensation in data careers.
+
+### Analysis Performed
+
+#### Skill Demand Analysis
+
+* Most requested technical skills
+* Skill likelihood across job postings
+* Ranking of in-demand technologies
+
+![Top Skills Analysis](images/skills_analysis.png)
+
+---
+
+#### Skill Compensation Analysis
+
+* Median salary associated with each skill
+* Comparison of demand versus compensation
+
+![Salary vs Skills Analysis](images/salary_skills_analysis.png)
+
+---
+
+#### Geographic Salary Analysis
+
+* Country-level salary comparisons
+* US vs Non-US compensation benchmarking
+
+![Country Salary Analysis](images/country_analysis.png)
+
+---
+
+#### Skills vs Salary Relationship
+
+* Examined whether jobs requiring more skills tend to pay more
+* Compared skill complexity with compensation across roles
+
+![Skills vs Salary](images/skills_salary_relationship.png)
 
 ---
 
 ## 📈 Key Insights
 
-* **Higher-paying roles like Data Engineer and Senior Data Scientist require more specialized skill sets**, indicating a positive relationship between skill complexity and salary.
-* **SQL and Excel are the most in-demand skills**, making them essential for entry into data roles.
-* **Machine Learning and Data Engineering roles command higher salaries**, even with moderate skill counts, due to specialization.
-* **US salaries are generally higher than non-US salaries**, highlighting geographic impact on compensation.
+### Salary Leaders
+
+* Senior Data Scientist and Senior Data Engineer roles command the highest median salaries.
+* Specialized technical positions consistently outperform generalist roles.
+
+### Most In-Demand Skills
+
+* SQL and Excel appear most frequently across job postings.
+* Python, Tableau, and Power BI remain highly valuable analytical skills.
+
+### Skills & Compensation
+
+* Higher-paying positions generally require broader and more specialized skill sets.
+* Data Engineering roles exhibit strong salary premiums despite moderate posting volumes.
+
+### Geographic Differences
+
+* US-based positions generally offer higher compensation than non-US roles.
+* Significant salary variation exists across countries for similar job titles.
 
 ---
 
-## 🚀 Learnings
+## 📚 What I Learned
 
-* Built interactive dashboards from raw datasets
-* Analyzed relationships between skills and salary
-* Translated data into meaningful business insights
-* Improved data storytelling using Advanced Excel, Power Pivot, Pivot Tables, Power Query, DAX
+Through this project I gained hands-on experience with:
+
+* Building interactive dashboards from raw datasets
+* Data transformation using Power Query
+* Creating analytical data models with Power Pivot
+* Writing DAX calculations and measures
+* Using advanced Excel functions for dynamic reporting
+* Designing KPI-driven dashboards
+* Performing exploratory and comparative salary analysis
+* Translating data into business-focused insights
 
 ---
 
-## 📌 Conclusion
+## 📂 Repository Structure
 
-This project demonstrates how data analysis can uncover meaningful trends in the job market and help understand the skills required to maximize earning potential in data careers.
+```text
+Data-Science-Salary-Skills-Analytics/
+│
+├── Dashboard Workbook
+│   ├── Data
+│   ├── Data Validation
+│   ├── Salary Dashboard
+│   └── Supporting Calculation Sheets
+│
+├── Analysis Workbook
+│   ├── Skills Analysis
+│   ├── Salary Skills Analysis
+│   ├── Salary Country Analysis
+│   └── Salary vs Skills Analysis
+│
+├── Images
+│   ├── dashboard.png
+│   ├── skills_analysis.png
+│   ├── salary_skills_analysis.png
+│   ├── country_analysis.png
+│   └── skills_salary_relationship.png
+│
+└── README.md
+```
 
 ---
 
-## 🤝 Author
+## 🚀 Conclusion
 
-Aditi Bajaj
+This project demonstrates how Excel can be used as a complete analytics platform by combining data transformation, modeling, dashboarding, and exploratory analysis to uncover meaningful trends in the data job market.
+
+The insights generated help explain how job roles, skills, geography, and employment patterns influence compensation and career opportunities in data-related fields.
+
+---
+
+## 👤 Author
+
+**Aditi Bajaj**
