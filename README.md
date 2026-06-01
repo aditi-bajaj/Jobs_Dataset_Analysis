@@ -80,7 +80,7 @@ Build a dynamic Excel dashboard enabling users to explore compensation and hirin
 
 ### Dashboard Preview
 
-![Salary Dashboard](images/dashboard.png)
+![](images/dashboard_preview/dashboard.png)
 
 ---
 
@@ -98,7 +98,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 * Skill likelihood across job postings
 * Ranking of in-demand technologies
 
-![Top Skills Analysis](images/skills_analysis.png)
+![](images/analysis_preview/top_in_demand_skills.png)
 
 ---
 
@@ -107,7 +107,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 * Median salary associated with each skill
 * Comparison of demand versus compensation
 
-![Salary vs Skills Analysis](images/salary_skills_analysis.png)
+![](images/analysis_preview/skill_premium_analysis.png)
 
 ---
 
@@ -116,7 +116,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 * Country-level salary comparisons
 * US vs Non-US compensation benchmarking
 
-![Country Salary Analysis](images/country_analysis.png)
+![](images/analysis_preview/global_salary_benchmarking.png)
 
 ---
 
@@ -125,7 +125,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 * Examined whether jobs requiring more skills tend to pay more
 * Compared skill complexity with compensation across roles
 
-![Skills vs Salary](images/skills_salary_relationship.png)
+![](images/analysis_preview/skill_complexity_vs_compensation.png)
 
 ---
 
@@ -170,27 +170,29 @@ Through this project I gained hands-on experience with:
 
 ## 📂 Repository Structure
 
+## Repository Structure
+
 ```text
-Data-Science-Salary-Skills-Analytics/
+data-science-salary-and-skills-analytics/
 │
-├── Dashboard Workbook
-│   ├── Data
-│   ├── Data Validation
-│   ├── Salary Dashboard
-│   └── Supporting Calculation Sheets
+├── dataset/
+│   └── data_jobs_main.xlsx
 │
-├── Analysis Workbook
-│   ├── Skills Analysis
-│   ├── Salary Skills Analysis
-│   ├── Salary Country Analysis
-│   └── Salary vs Skills Analysis
+├── dashboard_workbook/
+│   └── Data_Science_Salary_Dashboard.xlsx
 │
-├── Images
-│   ├── dashboard.png
-│   ├── skills_analysis.png
-│   ├── salary_skills_analysis.png
-│   ├── country_analysis.png
-│   └── skills_salary_relationship.png
+├── analysis_workbook/
+│   └── Salary_Skills_Analytics.xlsx
+│
+├── images/
+│   ├── dashboard_preview/
+│   │   └── dashboard.png
+│   │
+│   └── analysis_preview/
+│       ├── top_in_demand_skills.png
+│       ├── skill_premium_analysis.png
+│       ├── global_salary_benchmarking.png
+│       └── skill_complexity_vs_compensation.png
 │
 └── README.md
 ```
