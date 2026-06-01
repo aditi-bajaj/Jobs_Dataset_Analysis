@@ -111,7 +111,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 
 ---
 
-#### Geographic Salary Analysis
+#### Global Salary Benchmarking
 
 * Country-level salary comparisons
 * US vs Non-US compensation benchmarking
@@ -120,7 +120,7 @@ Perform exploratory analysis to understand how skills, geography, and job roles 
 
 ---
 
-#### Skills vs Salary Relationship
+#### Skill Complexity vs Compensation Analysis
 
 * Examined whether jobs requiring more skills tend to pay more
 * Compared skill complexity with compensation across roles
